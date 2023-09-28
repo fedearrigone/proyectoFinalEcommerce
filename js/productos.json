@@ -1,0 +1,94 @@
+[
+    {
+        "id": "reloj-01",
+        "titulo": "GA-100",
+        "imagen": "./img/gshock/1.jpg",
+        "categoria": {
+            "nombre": "G-Shock",
+            "id": "gshock"
+        },
+        "precio": 150000,
+        "descripcion": "Este es un reloj G-Shock de alta calidad con muchas características increíbles. ¡No querrás perdértelo!"
+    },
+    {
+        "id": "reloj-02",
+        "titulo": "G-9000",
+        "imagen": "./img/gshock/2.jpg",
+        "categoria": {
+            "nombre": "G-Shock",
+            "id": "gshock"
+        },
+        "precio": 175000
+    },
+    {
+        "id": "reloj-03",
+        "titulo": "GS-750",
+        "imagen": "./img/gshock/3.jpg",
+        "categoria": {
+            "nombre": "G-Shock",
+            "id": "gshock"
+        },
+        "precio": 160000
+    },
+    {
+        "id": "reloj-04",
+        "titulo": "Seiko Automatic",
+        "imagen": "./img/seiko/1.jpg",
+        "categoria": {
+            "nombre": "Seiko",
+            "id": "seiko"
+        },
+        "precio": 350000
+    },
+    {
+        "id": "reloj-05",
+        "titulo": "Seiko NaviSea",
+        "imagen": "./img/seiko/2.jpg",
+        "categoria": {
+            "nombre": "Seiko",
+            "id": "seiko"
+        },
+        "precio": 285000
+    },
+    {
+        "id": "reloj-06",
+        "titulo": "Seiko NaviSea",
+        "imagen": "./img/seiko/3.jpg",
+        "categoria": {
+            "nombre": "Seiko",
+            "id": "seiko"
+        },
+        "precio": 590000
+    },
+    {
+        "id": "reloj-07",
+        "titulo": "Casio 1",
+        "imagen": "./img/casio/1.jpg",
+        "categoria": {
+            "nombre": "Casio",
+            "id": "casio"
+        },
+        "precio": 90000
+    },
+    {
+        "id": "reloj-08",
+        "titulo": "Casio 2",
+        "imagen": "./img/casio/2.jpg",
+        "categoria": {
+            "nombre": "Casio",
+            "id": "casio"
+        },
+        "precio": 115000
+    },
+    {
+        "id": "reloj-09",
+        "titulo": "Casio 3",
+        "imagen": "./img/casio/3.jpg",
+        "categoria": {
+            "nombre": "Casio",
+            "id": "casio"
+        },
+        "precio": 110000
+    }
+    
+]
