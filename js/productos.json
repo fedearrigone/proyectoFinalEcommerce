@@ -30,38 +30,9 @@
         },
         "precio": 160000
     },
+    
     {
         "id": "reloj-04",
-        "titulo": "Seiko Automatic",
-        "imagen": "./img/seiko/1.jpg",
-        "categoria": {
-            "nombre": "Seiko",
-            "id": "seiko"
-        },
-        "precio": 350000
-    },
-    {
-        "id": "reloj-05",
-        "titulo": "Seiko NaviSea",
-        "imagen": "./img/seiko/2.jpg",
-        "categoria": {
-            "nombre": "Seiko",
-            "id": "seiko"
-        },
-        "precio": 285000
-    },
-    {
-        "id": "reloj-06",
-        "titulo": "Seiko NaviSea",
-        "imagen": "./img/seiko/3.jpg",
-        "categoria": {
-            "nombre": "Seiko",
-            "id": "seiko"
-        },
-        "precio": 590000
-    },
-    {
-        "id": "reloj-07",
         "titulo": "Casio 1",
         "imagen": "./img/casio/1.jpg",
         "categoria": {
@@ -71,7 +42,7 @@
         "precio": 90000
     },
     {
-        "id": "reloj-08",
+        "id": "reloj-05",
         "titulo": "Casio 2",
         "imagen": "./img/casio/2.jpg",
         "categoria": {
@@ -81,7 +52,7 @@
         "precio": 115000
     },
     {
-        "id": "reloj-09",
+        "id": "reloj-06",
         "titulo": "Casio 3",
         "imagen": "./img/casio/3.jpg",
         "categoria": {
@@ -89,6 +60,36 @@
             "id": "casio"
         },
         "precio": 110000
+    },
+    {
+        "id": "reloj-07",
+        "titulo": "Seiko Automatic",
+        "imagen": "./img/seiko/1.jpg",
+        "categoria": {
+            "nombre": "Seiko",
+            "id": "seiko"
+        },
+        "precio": 350000
+    },
+    {
+        "id": "reloj-08",
+        "titulo": "Seiko NaviSea",
+        "imagen": "./img/seiko/2.jpg",
+        "categoria": {
+            "nombre": "Seiko",
+            "id": "seiko"
+        },
+        "precio": 285000
+    },
+    {
+        "id": "reloj-09",
+        "titulo": "Seiko NaviSea",
+        "imagen": "./img/seiko/3.jpg",
+        "categoria": {
+            "nombre": "Seiko",
+            "id": "seiko"
+        },
+        "precio": 590000
     }
     
 ]
