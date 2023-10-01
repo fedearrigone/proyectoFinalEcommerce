@@ -1,95 +1,103 @@
 [
     {
         "id": "reloj-01",
-        "titulo": "GA-100",
+        "titulo": "GA-2100",
         "imagen": "./img/gshock/1.jpg",
         "categoria": {
             "nombre": "G-Shock",
             "id": "gshock"
         },
         "precio": 150000,
-        "descripcion": "Este es un reloj G-Shock de alta calidad con muchas características increíbles. ¡No querrás perdértelo!"
+        "descripcion": "Casio G-Shock GA-2100: Este audaz reloj G-Shock combina resistencia con estilo. Con su caja delgada pero robusta, el GA-2100 es perfecto para aquellos que buscan un diseño moderno y durabilidad. Cuenta con funciones esenciales como cronómetro, alarma y resistencia al agua."
     },
     {
         "id": "reloj-02",
-        "titulo": "G-9000",
+        "titulo": "GA-100",
         "imagen": "./img/gshock/2.jpg",
         "categoria": {
             "nombre": "G-Shock",
             "id": "gshock"
         },
-        "precio": 175000
+        "precio": 175000,
+        "descripcion":"Casio G-Shock GA-100: Emblematico reloj que combina estilo y funcionalidad. Su diseño llamativo y deportivo se complementa con características como cronómetro, múltiples alarmas y resistencia al agua. La pantalla analógica y digital te permite mantener un seguimiento preciso del tiempo mientras mantienes un aspecto audaz y moderno."
     },
     {
         "id": "reloj-03",
-        "titulo": "GS-750",
+        "titulo": "GW-9400",
         "imagen": "./img/gshock/3.jpg",
         "categoria": {
             "nombre": "G-Shock",
             "id": "gshock"
         },
-        "precio": 160000
+        "precio": 160000,
+        "descripcion":"Casio G-Shock GW9400: El GW9400 es el aliado perfecto para aventuras extremas. Este modelo resistente al agua y a los golpes está equipado con brújula, altímetro, barómetro y termómetro, lo que lo convierte en una herramienta esencial para amantes del aire libre y exploradores. Su diseño robusto y su pantalla LCD retroiluminada lo hacen legible en cualquier condición."
     },
     
     {
         "id": "reloj-04",
-        "titulo": "Casio 1",
+        "titulo": "Casio Vintage A120WEST-1AER",
         "imagen": "./img/casio/1.jpg",
         "categoria": {
             "nombre": "Casio",
             "id": "casio"
         },
-        "precio": 90000
+        "precio": 90000,
+        "descripcion":"Casio Vintage A120WEST-1AER: Es una pieza de nostalgia reinventada. Este reloj digital rinde homenaje al estilo retro con su diseño inspirado en los años 80. Su caja negra y su correa de resina ofrecen durabilidad y comodidad. La esfera digital de fácil lectura muestra la hora y fecha, mientras que las funciones de alarma y cronómetro añaden utilidad a su encanto vintage. Lleva el pasado a tu muñeca con este reloj que captura la esencia de una era pasada con un toque moderno."
     },
     {
         "id": "reloj-05",
-        "titulo": "Casio 2",
+        "titulo": "Casio CA-53WF-3BCF",
         "imagen": "./img/casio/2.jpg",
         "categoria": {
             "nombre": "Casio",
             "id": "casio"
         },
-        "precio": 115000
+        "precio": 115000,
+        "descripcion":"Casio CA-53WF-3BCF: Es un reloj digital que combina estilo retro con funcionalidad moderna. Su diseño verde oliva y su pantalla digital de alta visibilidad hacen que sea fácil de leer en cualquier situación. Este reloj versátil cuenta con funciones como cronómetro y alarma, lo que lo convierte en una elección perfecta para aquellos que buscan un reloj práctico con un toque de nostalgia."
     },
     {
         "id": "reloj-06",
-        "titulo": "Casio 3",
+        "titulo": "Casio Vintage A168WA-1YES",
         "imagen": "./img/casio/3.jpg",
         "categoria": {
             "nombre": "Casio",
             "id": "casio"
         },
-        "precio": 110000
+        "precio": 110000,
+        "descripcion":"Casio Vintage A168WA-1YES: es un verdadero clásico atemporal. Su diseño retro combina la nostalgia con la funcionalidad moderna. Con una caja de acero inoxidable plateada y una icónica esfera digital, este reloj ofrece una lectura fácil y precisa del tiempo. Su estilo versátil lo hace adecuado para cualquier ocasión, desde looks casuales hasta ocasiones especiales."
     },
     {
         "id": "reloj-07",
-        "titulo": "Seiko Automatic",
+        "titulo": "Seiko Automatic SRPE05",
         "imagen": "./img/seiko/1.jpg",
         "categoria": {
             "nombre": "Seiko",
             "id": "seiko"
         },
-        "precio": 350000
+        "precio": 350000,
+        "descripcion":"Seiko Automatic SRPE05: Es una joya de la relojería automática japonesa. Este reloj se destaca por su elegancia y precisión. Su caja de acero inoxidable pulido presenta un diseño atemporal que se combina con una esfera negra con detalles en dorado y agujas luminosas. Además, su mecanismo automático confiable garantiza una experiencia sin preocupaciones, sin necesidad de baterías. Un verdadero clásico moderno que se adapta a cualquier ocasión."
     },
     {
         "id": "reloj-08",
-        "titulo": "Seiko NaviSea",
+        "titulo": "Seiko Prospex SRPC91",
         "imagen": "./img/seiko/2.jpg",
         "categoria": {
             "nombre": "Seiko",
             "id": "seiko"
         },
-        "precio": 285000
+        "precio": 285000,
+        "descripcion":"Seiko Prospex SRPC91: Este reloj Seiko Prospex es la elección ideal para los entusiastas del buceo. Con una resistencia al agua de hasta 200 metros y un bisel giratorio unidireccional, te garantiza un rendimiento fiable bajo el agua. Además, su diseño elegante con esfera azul y ventana de fecha a las 3 en punto lo hace igualmente atractivo en tierra firme."
     },
     {
         "id": "reloj-09",
-        "titulo": "Seiko NaviSea",
+        "titulo": "Seiko x Bruce Lee Limited Edition SSB369",
         "imagen": "./img/seiko/3.jpg",
         "categoria": {
             "nombre": "Seiko",
             "id": "seiko"
         },
-        "precio": 590000
+        "precio": 590000,
+        "descripcion":"Seiko x Bruce Lee Limited Edition SSB369: Este reloj Seiko es una colaboración especial en homenaje al legendario Bruce Lee. El SSB369 presenta un diseño audaz y deportivo que captura la esencia del icono del cine de artes marciales. Su esfera amarilla con detalles en negro y rojo rinde tributo al traje de Bruce Lee en su película más famosa. Además, el logo de Bruce Lee y su firma grabados en la parte posterior del reloj añaden un toque exclusivo a esta edición limitada. Un reloj que encarna la fuerza y el espíritu de Bruce Lee."
     }
     
 ]
