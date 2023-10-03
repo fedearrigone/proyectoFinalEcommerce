@@ -7,7 +7,6 @@ fetch("./js/productos.json")
         cargarProductos(productos);
     })
 
-
 const contenedorProductos = document.querySelector("#contenedor-productos");
 const botonesCategorias = document.querySelectorAll(".boton-categoria");
 const tituloPrincipal = document.querySelector("#titulo-principal");
@@ -18,7 +17,6 @@ const numerito = document.querySelector("#numerito");
 botonesCategorias.forEach(boton => boton.addEventListener("click", () => {
     aside.classList.remove("aside-visible");
 }))
-
 
 function cargarProductos(productosElegidos) {
 
@@ -40,7 +38,6 @@ function cargarProductos(productosElegidos) {
 
         contenedorProductos.append(div);
 
-        // Agregar evento click para el botón "Saber más" de este producto
         const botonSaberMas = div.querySelector(".producto-saberMas");
         botonSaberMas.addEventListener("click", () => {
             mostrarInformacionProducto(producto);
@@ -50,7 +47,6 @@ function cargarProductos(productosElegidos) {
     actualizarBotonesAgregar();
 }
 
-// Agregar evento click a los botones "Saber más" aquí, después de cargar los productos
 botonesSaberMas = document.querySelectorAll(".producto-saberMas");
 
 botonesSaberMas.forEach(boton => {
@@ -64,47 +60,30 @@ botonesSaberMas.forEach(boton => {
     });
 });
 
-
-
-
-
-// Función para mostrar la información del producto en un modal
 function mostrarInformacionProducto(producto) {
     const productoModal = document.getElementById("productoModal");
     const productoInformacion = document.getElementById("productoInformacion");
     const closeModal = document.getElementById("close-modal");
 
-    // Llena el contenido del modal con la información del producto
     productoInformacion.innerHTML = `
         <h3 class="producto-titulo">${producto.titulo}</h3>
         <p class="producto-precio">$${producto.precio}</p>
         <img class="producto-imagen" src="${producto.imagen}" alt="${producto.titulo}">
         <p class="producto-descripcion">${producto.descripcion}</p>
     `;
-
-    // Muestra el modal
+    
     productoModal.style.display = "block";
 
-    // Cierra el modal cuando se hace clic en la "X"
     closeModal.addEventListener("click", () => {
         productoModal.style.display = "none";
     });
 
-    // Cierra el modal cuando se hace clic fuera del modal
     window.addEventListener("click", (event) => {
         if (event.target === productoModal) {
             productoModal.style.display = "none";
         }
     });
 }
-
-
-
-
-
-
-
-
 
 botonesCategorias.forEach(boton => {
     boton.addEventListener("click", (e) => {
@@ -114,7 +93,7 @@ botonesCategorias.forEach(boton => {
 
         if (e.currentTarget.id != "todos") {
             const productosCategoria = productos.filter(producto => producto.categoria.id === e.currentTarget.id);
-            tituloPrincipal.innerText = e.currentTarget.innerText; // Cambia el título según el botón de categoría actual
+            tituloPrincipal.innerText = e.currentTarget.innerText; 
             cargarProductos(productosCategoria);
         } else {
             tituloPrincipal.innerText = "Todos los productos";
@@ -148,9 +127,9 @@ function agregarAlCarrito(e) {
         text: "Producto agregado",
         duration: 3000,
         close: true,
-        gravity: "top", // `top` or `bottom`
-        position: "right", // `left`, `center` or `right`
-        stopOnFocus: true, // Prevents dismissing of toast on hover
+        gravity: "top", 
+        position: "right", 
+        stopOnFocus: true, 
         style: {
           background: "linear-gradient(to right, #4b33a8, #785ce9)",
           borderRadius: "2rem",
@@ -158,10 +137,10 @@ function agregarAlCarrito(e) {
           fontSize: ".75rem"
         },
         offset: {
-            x: '1.5rem', // horizontal axis - can be a number or a string indicating unity. eg: '2em'
-            y: '1.5rem' // vertical axis - can be a number or a string indicating unity. eg: '2em'
+            x: '1.5rem', 
+            y: '1.5rem' 
           },
-        onClick: function(){} // Callback after click
+        onClick: function(){} 
       }).showToast();
 
     const idBoton = e.currentTarget.id;
